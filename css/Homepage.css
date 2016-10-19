@@ -17,6 +17,10 @@
       color: #585a5b; }
     .testimonials .testimonial h4 {
       color: #a6aaad; }
+    .testimonials .testimonial img {
+      height: 200px;
+      width: auto;
+      border-radius: 50%; }
 
 .companies {
   padding: 0 80px; }
