@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+}
+
+// Testimonial styling
+.testimonials{
+	background-color: #d5dae0;
+	padding: 0 80px;
+	padding-top: 20px;
+	margin-top: -20px;
+	border-radius: 20px;
+
+	h2{
+		text-align: center;
+		padding: 20px 0;
+	}
+	.testimonial{
+		text-align: center;
+		padding: 40px;
+
+		h3{
+			color: #585a5b;
+		}
+
+		h4{
+			color: #a6aaad;
+		}
+	}
+}
+
+// Company styling
+.companies{
+	padding: 0 80px;
+
+	h2{
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.company{
+		text-align: center;
+		padding: 40px;
+	}
+}
+
+// Footer styling
+
+.footer{
+	padding: 0 80px;
+	height: 80px;
+	margin-top: 80px;
+
+	.row{
+
+		.copywrite{
+
+			h4{
+				color: #a6aaad;
+				font-size: 1.8rem;
+				display: inline-block;
+			}
+
+			h2{
+				color: #a6aaad;
+				font-size: 1.8rem;
+				display: inline-block;
+			}
+
+			img{
+				fill: #a6aaad;
+				width: auto;
+				height: 20px;
+				margin-top: -5px;
+			}
+		}
+
+		.bottomNav{
+
+			ul{
+				position: absolute;
+				bottom: -40px;
+				margin-top: auto;
+				margin-bottom: auto;
+
+				li{
+					font-size: 1.8rem;
+					display: inline-block;
+					padding: 0 5px;
+					vertical-align: bottom;
+
+					a{
+						color: #a6aaad;
+						text-decoration: none;
+
+						&:hover{
+							color: #585a5b;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

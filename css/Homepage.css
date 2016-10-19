@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box; }
+
+.testimonials {
+  background-color: #d5dae0;
+  padding: 0 80px;
+  padding-top: 20px;
+  margin-top: -20px;
+  border-radius: 20px; }
+  .testimonials h2 {
+    text-align: center;
+    padding: 20px 0; }
+  .testimonials .testimonial {
+    text-align: center;
+    padding: 40px; }
+    .testimonials .testimonial h3 {
+      color: #585a5b; }
+    .testimonials .testimonial h4 {
+      color: #a6aaad; }
+
+.companies {
+  padding: 0 80px; }
+  .companies h2 {
+    text-align: center;
+    padding: 20px 0; }
+  .companies .company {
+    text-align: center;
+    padding: 40px; }
+
+.footer {
+  padding: 0 80px;
+  height: 80px;
+  margin-top: 80px; }
+  .footer .row .copywrite h4 {
+    color: #a6aaad;
+    font-size: 1.8rem;
+    display: inline-block; }
+  .footer .row .copywrite h2 {
+    color: #a6aaad;
+    font-size: 1.8rem;
+    display: inline-block; }
+  .footer .row .copywrite img {
+    fill: #a6aaad;
+    width: auto;
+    height: 20px;
+    margin-top: -5px; }
+  .footer .row .bottomNav ul {
+    position: absolute;
+    bottom: -40px;
+    margin-top: auto;
+    margin-bottom: auto; }
+    .footer .row .bottomNav ul li {
+      font-size: 1.8rem;
+      display: inline-block;
+      padding: 0 5px;
+      vertical-align: bottom; }
+      .footer .row .bottomNav ul li a {
+        color: #a6aaad;
+        text-decoration: none; }
+        .footer .row .bottomNav ul li a:hover {
+          color: #585a5b; }
