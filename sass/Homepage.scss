@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+// Testimonial styling
+.testimonials{
+	background-color: #d5dae0;
+	padding: 0 80px;
+
+	h2{
+		text-align: center;
+		padding: 20px 0;
+	}
+	.testimonial{
+		text-align: center;
+		padding: 40px;
+
+		h3{
+			color: #585a5b
+		}
+
+		h4{
+			color: #a6aaad;
+		}
+	}
+}
+
+
+

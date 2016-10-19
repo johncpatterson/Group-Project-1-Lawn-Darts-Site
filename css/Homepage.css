@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box; }
+
+.testimonials {
+  background-color: #d5dae0;
+  padding: 0 80px; }
+  .testimonials h2 {
+    text-align: center;
+    padding: 20px 0; }
+  .testimonials .testimonial {
+    text-align: center;
+    padding: 40px; }
+    .testimonials .testimonial h3 {
+      color: #585a5b; }
+    .testimonials .testimonial h4 {
+      color: #a6aaad; }
