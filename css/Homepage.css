@@ -3,6 +3,11 @@
 
 .top .header {
   height: 90px; }
+  .top .header img {
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    padding: 0; }
 
 .top .nav ul {
   padding-top: 30px;
