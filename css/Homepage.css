@@ -3,7 +3,10 @@
 
 .testimonials {
   background-color: #d5dae0;
-  padding: 0 80px; }
+  padding: 0 80px;
+  padding-top: 20px;
+  margin-top: -20px;
+  border-radius: 20px; }
   .testimonials h2 {
     text-align: center;
     padding: 20px 0; }
@@ -14,3 +17,12 @@
       color: #585a5b; }
     .testimonials .testimonial h4 {
       color: #a6aaad; }
+
+.companies {
+  padding: 0 80px; }
+  .companies h2 {
+    text-align: center;
+    padding: 20px 0; }
+  .companies .company {
+    text-align: center;
+    padding: 40px; }

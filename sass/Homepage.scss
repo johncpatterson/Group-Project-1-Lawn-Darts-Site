@@ -6,6 +6,9 @@
 .testimonials{
 	background-color: #d5dae0;
 	padding: 0 80px;
+	padding-top: 20px;
+	margin-top: -20px;
+	border-radius: 20px;
 
 	h2{
 		text-align: center;
@@ -22,6 +25,21 @@
 		h4{
 			color: #a6aaad;
 		}
+	}
+}
+
+// Company styling
+.companies{
+	padding: 0 80px;
+
+	h2{
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.company{
+		text-align: center;
+		padding: 40px;
 	}
 }
 
