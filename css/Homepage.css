@@ -30,6 +30,10 @@
   .companies .company {
     text-align: center;
     padding: 40px; }
+  .companies img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px; }
 
 .footer {
   padding: 0 80px;
