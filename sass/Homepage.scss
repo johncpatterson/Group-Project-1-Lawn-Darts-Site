@@ -19,7 +19,7 @@
 		padding: 40px;
 
 		h3{
-			color: #585a5b
+			color: #585a5b;
 		}
 
 		h4{
@@ -43,5 +43,63 @@
 	}
 }
 
+// Footer styling
+
+.footer{
+	padding: 0 80px;
+	height: 80px;
+	margin-top: 80px;
+
+	.row{
+
+		.copywrite{
+
+			h4{
+				color: #a6aaad;
+				font-size: 1.8rem;
+				display: inline-block;
+			}
+
+			h2{
+				color: #a6aaad;
+				font-size: 1.8rem;
+				display: inline-block;
+			}
+
+			img{
+				fill: #a6aaad;
+				width: auto;
+				height: 20px;
+				margin-top: -5px;
+			}
+		}
+
+		.bottomNav{
+
+			ul{
+				position: absolute;
+				bottom: -40px;
+				margin-top: auto;
+				margin-bottom: auto;
+
+				li{
+					font-size: 1.8rem;
+					display: inline-block;
+					padding: 0 5px;
+					vertical-align: bottom;
+
+					a{
+						color: #a6aaad;
+						text-decoration: none;
+
+						&:hover{
+							color: #585a5b;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
