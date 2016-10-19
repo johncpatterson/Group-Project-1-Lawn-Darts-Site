@@ -1,10 +1,8 @@
 $.ajax({
 	url: 'https://json-data.herokuapp.com/darts/testimonials',
 	success: function(result){
-		console.log(result);
 
 		var personArray = result.results
-		console.log(personArray)
 
 		$('#personName1').append(`
 			${personArray[0].name}
@@ -28,6 +26,32 @@ $.ajax({
 
 		$('#quote3').append(`
 			"${personArray[2].review}"
+		`)
+	}
+})
+
+$.ajax({
+	url: 'https://json-data.herokuapp.com/darts/companies',
+	success: function(result){
+		console.log(result);
+
+		var companyArray = result.results
+		console.log(companyArray[0].image_url)
+
+		$('.company1').append(`
+			<img src=${companyArray[0].image_url}>
+		`)
+
+		$('.company2').append(`
+			<img src=${companyArray[1].image_url}>
+		`)
+
+		$('.company3').append(`
+			<img src=${companyArray[2].image_url}>
+		`)
+
+		$('.company4').append(`
+			<img src=${companyArray[3].image_url}>
 		`)
 	}
 })
