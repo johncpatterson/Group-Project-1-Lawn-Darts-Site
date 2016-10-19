@@ -1,0 +1,32 @@
+{
+  "name": "tiy_4_3_lawn_darts_site",
+  "version": "1.0.0",
+  "description": "Lawn Darts Site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncpatterson/Group-Project-1-Lawn-Darts-Site.git"
+  },
+  "author": "John Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johncpatterson/Group-Project-1-Lawn-Darts-Site.git/issues"
+  },
+  "homepage": "https://github.com/johncpatterson/Group-Project-1-Lawn-Darts-Site.git#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "moment": "^2.15.1"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "moment": "^2.15.1"
+  }
+}
