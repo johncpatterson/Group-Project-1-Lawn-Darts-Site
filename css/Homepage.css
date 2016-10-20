@@ -22,6 +22,9 @@
       .top .nav ul li a:hover {
         color: #585a5b; }
 
+.container .product-info {
+  margin: 0; }
+
 .testimonials {
   background-color: #d5dae0;
   padding: 0 80px;

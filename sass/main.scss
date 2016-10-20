@@ -25,6 +25,8 @@
     padding-top: 60px;
     background-color: white;
     padding-bottom: 80px;
+    padding-left: 0;
+    padding-right:0;
 }
 
 #carousel-image-1,
@@ -52,8 +54,8 @@
 
 #main-page-product-image {
     border-radius: 10px;
-    max-height: 500px;
-    max-width: 430px;
+    height: auto;
+    width: 100%;
 }
 
 .product-image {
