@@ -21,9 +21,9 @@
             </div>
             <div class="col-md-6 nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -73,13 +73,13 @@
             <div class="col-md-6 product-name">
                 <h2>Product</h2>
             </div>
-            <div class="col-md-12 product-image">
-                <img src="https://i.ytimg.com/vi/FkAH88ugosY/maxresdefault.jpg" alt="product image" id="main-page-product-image">
+            <div class="col-md-12 product-image-home">
+                <img src="http://8.media.tumblr.com/7hu2U4T6Coqfolspe7G7HHeto1_500.jpg" alt="product image" id="main-page-product-image">
             </div>
             <div class="col-md-12 cart-and-social">
             <div class="row">
                 <div class="col-md-5 add-to-cart">
-                    <button class="btn btn-primary btn-lg">Add to cart</button>
+                    <button class="btn btn-primary btn-lg" id="cartButton">Add to cart</button>
                 </div>
                 <div class="col-md-7 social-icons">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -140,6 +140,14 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="cartModal" class="modal">
+        <!-- Modal content -->
+        <div class="modalContent">
+            <span class="close">X</span>
+            <p>Product added successfully!</p>
         </div>
     </div>
 
