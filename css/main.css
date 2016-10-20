@@ -101,23 +101,20 @@ img .product-image {
   text-decoration: none;
   cursor: crosshair; }
 
-.navbar .container ul li:hover {
-  background-color: #e0e0e0; }
-
 .footer {
   padding: 0 80px;
   height: 80px;
   margin-top: 80px; }
   .footer .row .copywrite h4 {
-    color: #ff4d4d;
+    color: #a6aaad;
     font-size: 1.8rem;
     display: inline-block; }
   .footer .row .copywrite h2 {
-    color: #ff4d4d;
+    color: #a6aaad;
     font-size: 1.8rem;
     display: inline-block; }
   .footer .row .copywrite img {
-    fill: #ff4d4d;
+    fill: #a6aaad;
     width: auto;
     height: 20px;
     margin-top: -5px; }
@@ -132,7 +129,36 @@ img .product-image {
       padding: 0 5px;
       vertical-align: bottom; }
       .footer .row .bottomNav ul li a {
-        color: #ff4d4d;
+        color: #a6aaad;
         text-decoration: none; }
         .footer .row .bottomNav ul li a:hover {
-          color: #b30000; }
+          color: #585a5b; }
+      .footer .row .bottomNav ul li .navbar .container ul li:hover {
+        background-color: #e0e0e0; }
+      .footer .row .bottomNav ul li .footer {
+        padding: 0 80px;
+        height: 80px;
+        margin-top: 80px; }
+        .footer .row .bottomNav ul li .footer .row .copywrite h4 {
+          color: #ff4d4d;
+          font-size: 1.8rem;
+          display: inline-block; }
+        .footer .row .bottomNav ul li .footer .row .copywrite h2 {
+          color: #ff4d4d;
+          font-size: 1.8rem;
+          display: inline-block; }
+        .footer .row .bottomNav ul li .footer .row .copywrite img {
+          fill: #ff4d4d;
+          width: auto;
+          height: 20px;
+          margin-top: -5px; }
+        .footer .row .bottomNav ul li .footer .row .bottomNav ul {
+          position: absolute;
+          bottom: -40px;
+          margin-top: auto;
+          margin-bottom: auto; }
+          .footer .row .bottomNav ul li .footer .row .bottomNav ul li {
+            font-size: 1.8rem;
+            display: inline-block;
+            padding: 0 5px;
+            vertical-align: bottom; }
