@@ -1,0 +1,16 @@
+#putProductsHere {
+  margin-top: 30px; }
+  #putProductsHere .product-info {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  #putProductsHere .product-image {
+    width: 100%; }
+  #putProductsHere .product-description {
+    margin-top: 20px;
+    padding: 20px 30px;
+    line-height: 1.4em;
+    color: #585a5b;
+    background-color: #e4e7eb;
+    border-radius: 10px; }

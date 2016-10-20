@@ -1,8 +1,17 @@
-img {
-  max-width: 100%;
-  max-height: 100%; }
+.container .navbar-header .navbar-brand h1 {
+  font-size: 3rem;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 0px;
+  color: black; }
+
+.container .navbar-header .navbar-brand img {
+  display: inline-block;
+  height: 35px;
+  margin-right: 5px; }
 
 .top {
+  padding-top: 60px;
   background-color: white;
   padding-bottom: 80px; }
 
@@ -38,11 +47,6 @@ img {
 .product-image-home {
   margin-top: 20px;
   border-radius: 5px; }
-
-div.product-description {
-  border-radius: 5px;
-  background-color: #a6aaad;
-  margin-top: 15px; }
 
 a.navbar-brand {
   margin-top: -8px; }
@@ -97,20 +101,23 @@ img .product-image {
   text-decoration: none;
   cursor: crosshair; }
 
+.navbar .container ul li:hover {
+  background-color: #e0e0e0; }
+
 .footer {
   padding: 0 80px;
   height: 80px;
   margin-top: 80px; }
   .footer .row .copywrite h4 {
-    color: #a6aaad;
+    color: #ff4d4d;
     font-size: 1.8rem;
     display: inline-block; }
   .footer .row .copywrite h2 {
-    color: #a6aaad;
+    color: #ff4d4d;
     font-size: 1.8rem;
     display: inline-block; }
   .footer .row .copywrite img {
-    fill: #a6aaad;
+    fill: #ff4d4d;
     width: auto;
     height: 20px;
     margin-top: -5px; }
@@ -125,7 +132,7 @@ img .product-image {
       padding: 0 5px;
       vertical-align: bottom; }
       .footer .row .bottomNav ul li a {
-        color: #a6aaad;
+        color: #ff4d4d;
         text-decoration: none; }
         .footer .row .bottomNav ul li a:hover {
-          color: #585a5b; }
+          color: #b30000; }
