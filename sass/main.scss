@@ -6,17 +6,13 @@ img {
 .top{
     background-color: white;
     padding-bottom: 80px;
-
-
 }
-
 
 #carousel-image-1,
 #carousel-image-2 {
     max-height: 550px;
     max-width: 550px;
 }
-
 
 .fa-facebook,
 .fa-twitter,
@@ -33,30 +29,29 @@ img {
 
 .product-name {
 	vertical-align: top;   
-
 }
+
 #main-page-product-image {
 	border-radius: 5px;
 	max-height: 300px;
 	max-width: 300px;
-
 }
 
 .product-image {
 	border-radius: 5px;
 	max-height: 337px;
-	
 
 }
+
 .product-image-home {
 	margin-top: 20px;
 	border-radius: 5px;
 }
+
 div.product-description {
 	border-radius: 5px;
 	background-color: #a6aaad;
 	margin-top: 15px;
-
 }
 
 a.navbar-brand {
@@ -71,12 +66,49 @@ img
 .cart-and-social {
      margin-top: 25px;
 }
+
 .logo-image {
 	max-height: 100px;
 	max-width: 100px;
 }
 
-// .main-page-product-image {
-// 	max-height: 400px;
-// 	max-width: 450px;
-// }
+// Modal background
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba (0,0,0,0,.4);
+}
+// Modal content
+.modalContent {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #999999;	
+	width: 40%;
+	height: 100px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+// Close button
+.close {
+	color: #c1c1c1;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.close.hover {
+	color: black;
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+
+

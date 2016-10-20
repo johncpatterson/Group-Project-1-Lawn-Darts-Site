@@ -36,7 +36,24 @@ jQuery(function() {
 
 
 
+// // Modal popup jQuery
+// // var $modal = $("#cartModal");
+// // var $btn = $("#cartButton");
+// // var $span = $(".close");
 
+// $("#cartModal").on("click", function() {
+//     this.css("display", "block");
+// });
+
+// $("span").on("click", function() {
+//     this.css("display", "none");
+// });
+
+// $(window).on("click", function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// });
 
 
 
