@@ -9,9 +9,14 @@ img {
 }
 
 #carousel-image-1,
-#carousel-image-2 {
-    max-height: 550px;
-    max-width: 550px;
+#carousel-image-2,
+#carousel-image-3 {
+    max-height: 412px;
+    width: 100%;
+    border-radius: 10px;
+}
+.carousel-control {
+	background-image: none !important;
 }
 
 .fa-facebook,
@@ -22,18 +27,14 @@ img {
     padding: 10px;
 }
 
-#carousel-example-generic {
-    border-radius: 25px;
-}
-
 .product-name {
     vertical-align: top;
 }
 
 #main-page-product-image {
-    border-radius: 5px;
+    border-radius: 10px;
     max-height: 500px;
-    max-width: 450px;
+    max-width: 430px;
 }
 
 .product-image {
@@ -107,7 +108,6 @@ img .product-image {
 
 // Close button
 .close {
-    color: #bdc3c9;
     float: right;
     font-size: 30px;
     font-weight: bold;
@@ -119,64 +119,49 @@ img .product-image {
     cursor: crosshair;
 }
 
-
-
-.footer{
-	padding: 0 80px;
-	height: 80px;
-	margin-top: 80px;
-
-	.row{
-
-		.copywrite{
-
-			h4{
-				color: #a6aaad;
-				font-size: 1.8rem;
-				display: inline-block;
-			}
-
-			h2{
-				color: #a6aaad;
-				font-size: 1.8rem;
-				display: inline-block;
-			}
-
-			img{
-				fill: #a6aaad;
-				width: auto;
-				height: 20px;
-				margin-top: -5px;
-			}
-		}
-
-		.bottomNav{
-
-			ul{
-				position: absolute;
-				bottom: -40px;
-				margin-top: auto;
-				margin-bottom: auto;
-
-				li{
-					font-size: 1.8rem;
-					display: inline-block;
-					padding: 0 5px;
-					vertical-align: bottom;
-
-					a{
-						color: #a6aaad;
-						text-decoration: none;
-
-						&:hover{
-							color: #585a5b;
-						}
-					}
-				}
-			}
-		}
-	}
+.footer {
+    padding: 0 80px;
+    height: 80px;
+    margin-top: 80px;
+    .row {
+        .copywrite {
+            h4 {
+                color: #a6aaad;
+                font-size: 1.8rem;
+                display: inline-block;
+            }
+            h2 {
+                color: #a6aaad;
+                font-size: 1.8rem;
+                display: inline-block;
+            }
+            img {
+                fill: #a6aaad;
+                width: auto;
+                height: 20px;
+                margin-top: -5px;
+            }
+        }
+        .bottomNav {
+            ul {
+                position: absolute;
+                bottom: -40px;
+                margin-top: auto;
+                margin-bottom: auto;
+                li {
+                    font-size: 1.8rem;
+                    display: inline-block;
+                    padding: 0 5px;
+                    vertical-align: bottom;
+                    a {
+                        color: #a6aaad;
+                        text-decoration: none;
+                        &:hover {
+                            color: #585a5b;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
-
-
-

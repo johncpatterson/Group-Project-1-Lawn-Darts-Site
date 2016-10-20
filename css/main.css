@@ -7,9 +7,14 @@ img {
   padding-bottom: 80px; }
 
 #carousel-image-1,
-#carousel-image-2 {
-  max-height: 550px;
-  max-width: 550px; }
+#carousel-image-2,
+#carousel-image-3 {
+  max-height: 412px;
+  width: 100%;
+  border-radius: 10px; }
+
+.carousel-control {
+  background-image: none !important; }
 
 .fa-facebook,
 .fa-twitter,
@@ -18,16 +23,13 @@ img {
   font-size: 35px;
   padding: 10px; }
 
-#carousel-example-generic {
-  border-radius: 25px; }
-
 .product-name {
   vertical-align: top; }
 
 #main-page-product-image {
-  border-radius: 5px;
+  border-radius: 10px;
   max-height: 500px;
-  max-width: 450px; }
+  max-width: 430px; }
 
 .product-image {
   border-radius: 5px;
@@ -86,7 +88,6 @@ img .product-image {
   font-size: 25px; }
 
 .close {
-  color: #bdc3c9;
   float: right;
   font-size: 30px;
   font-weight: bold; }
