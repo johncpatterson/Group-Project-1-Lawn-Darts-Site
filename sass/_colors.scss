@@ -1,0 +1,11 @@
+$primary-color: red;
+
+$second-color: darken($primary-color, 15%);
+
+$third-color: darken($second-color, 15%);
+
+$fourth-color: lighten($primary-color, 15%);
+
+$fifth-color: lighten($fourth-color, 15%);
+
+$sixth-color: darken($third-color, 5%);
