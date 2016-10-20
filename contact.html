@@ -7,23 +7,44 @@
     <title>Your title goes here</title>
     <!-- Google Fonts link here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
 
-    <div class="container top">
-    <div class="row header">
-        <div class="col-md-6">
-            <img src="img/bullseyelogo.svg" alt="" class="col-md-2 logo-image">
-            <h1 class="col-md-10">Bullseye</h1>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/bullseyelogo.svg" alt="bullseyelogo">Bullseye</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-6 nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 contactInfo">
+                <h3>Phone</h3>
+                <h4>(513)664-8596</h4>
+                <h3>Email</h3>
+                <h4>bullseye.contact@notacon.com</h4>
+                <h3>Address</h3>
+                <h4>1600 Pennsylvania Ave NW, Washington, DC 20500</h4>
+            </div>
+            <div class="col-md-2"></div>
+            <div id="map" class="col-md-5"></div>
         </div>
     </div>
 
