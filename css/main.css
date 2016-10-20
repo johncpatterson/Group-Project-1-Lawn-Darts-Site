@@ -8,7 +8,7 @@ img {
 
 #carousel-image-1,
 #carousel-image-2 {
-  max-height: 500px;
+  max-height: 550px;
   max-width: 550px; }
 
 .fa-facebook,
@@ -24,8 +24,14 @@ img {
 .product-name {
   vertical-align: top; }
 
+#main-page-product-image {
+  border-radius: 5px;
+  max-height: 300px;
+  max-width: 300px; }
+
 .product-image {
-  border-radius: 5px; }
+  border-radius: 5px;
+  max-height: 337px; }
 
 .product-image-home {
   margin-top: 20px;
