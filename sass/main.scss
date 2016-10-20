@@ -3,7 +3,7 @@ img {
     max-height: 100%;
 }
 
-.top{
+.top {
     background-color: white;
     padding-bottom: 80px;
 }
@@ -16,104 +16,105 @@ img {
 
 .fa-facebook,
 .fa-twitter,
-.fa-instagram
-	{
-	float: right;
-	font-size: 35px;
-	padding: 10px;
-	}
+.fa-instagram {
+    float: right;
+    font-size: 35px;
+    padding: 10px;
+}
 
 #carousel-example-generic {
-     border-radius: 25px;
+    border-radius: 25px;
 }
 
 .product-name {
-	vertical-align: top;   
+    vertical-align: top;
 }
 
 #main-page-product-image {
-	border-radius: 5px;
-	max-height: 300px;
-	max-width: 300px;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 450px;
 }
 
 .product-image {
-	border-radius: 5px;
-	max-height: 337px;
-
+    border-radius: 5px;
+    max-height: 337px;
 }
 
 .product-image-home {
-	margin-top: 20px;
-	border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 div.product-description {
-	border-radius: 5px;
-	background-color: #a6aaad;
-	margin-top: 15px;
+    border-radius: 5px;
+    background-color: #a6aaad;
+    margin-top: 15px;
 }
 
 a.navbar-brand {
-	margin-top: -8px;
+    margin-top: -8px;
 }
 
-img
-	.product-image {
-		border-radius: 15px;
-	}
+img .product-image {
+    border-radius: 15px;
+}
 
 .cart-and-social {
-     margin-top: 25px;
+    margin-top: 25px;
 }
 
 .logo-image {
-	max-height: 100px;
-	max-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    float: right;
 }
 
 #map {
     height: 500px;
-    width:100%;
+    width: 100%;
 }
 
 // Modal background
 .modal {
-	display: none;
-	position: fixed;
-	z-index: 1;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgba (0,0,0,0,.4);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba (0, 0, 0, 0, .4);
 }
+
 // Modal content
 .modalContent {
-	background-color: #fefefe;
-	margin: 15% auto;
-	padding: 20px;
-	border: 1px solid #999999;	
-	width: 30%;
-	height: 150px;
-	border-radius: 5px;
-	text-align: center;
-	font-size: 25px;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #999999;
+    width: 30%;
+    height: 150px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
 }
+
 // Close button
 .close {
-	color: #bdc3c9;
-	float: right;
-	font-size: 30px;
-	font-weight: bold;
+    color: #bdc3c9;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .close.hover {
-	color: black;
-	text-decoration: none;
-	cursor: crosshair;
+    color: black;
+    text-decoration: none;
+    cursor: crosshair;
 }
-
-
-

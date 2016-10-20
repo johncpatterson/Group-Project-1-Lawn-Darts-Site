@@ -26,8 +26,8 @@ img {
 
 #main-page-product-image {
   border-radius: 5px;
-  max-height: 300px;
-  max-width: 300px; }
+  max-height: 500px;
+  max-width: 450px; }
 
 .product-image {
   border-radius: 5px;
@@ -45,8 +45,7 @@ div.product-description {
 a.navbar-brand {
   margin-top: -8px; }
 
-img
-.product-image {
+img .product-image {
   border-radius: 15px; }
 
 .cart-and-social {
@@ -55,6 +54,10 @@ img
 .logo-image {
   max-height: 100px;
   max-width: 100px; }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  float: right; }
 
 #map {
   height: 500px;
